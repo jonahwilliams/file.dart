@@ -8,7 +8,10 @@ homepage: https://github.com/google/file.dart/packages/file_testing
 dependencies:
   meta: ^1.1.2
   test_core:
-    path: ../../../test/test_core
+    git:
+      url: git@github.com:jonahwilliams/test.git
+      ref: refactor
+      path: test_core
 
 environment:
   sdk: '>=2.0.0-dev.28.0 <3.0.0'
