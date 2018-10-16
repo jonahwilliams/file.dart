@@ -4,7 +4,7 @@
 
 import 'dart:io';
 
-import 'package:test/test.dart';
+import 'package:test_core/test.dart';
 
 import 'internal.dart';
 
